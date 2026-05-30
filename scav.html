@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NerdAxis · The Godspeed Hunt</title>
+<title>NerdAxis · The Hunt</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
@@ -251,13 +251,13 @@
 
 <script>
 // =============================================================
-//  The Godspeed Hunt — letter data
+//  The  Hunt — letter data
 //  Codes are written on the letter cards themselves.
 //  Each clue points to the NEXT letter's location.
 // =============================================================
 const LETTERS = [
   // findOrder = the order players will find them in
-  // placement = position in GODSPEED (1=G, 2=O, 3=D, 4=S, 5=P, 6=E, 7=E, 8=D)
+  // placement = position in  (1=G, 2=O, 3=D, 4=S, 5=P, 6=E, 7=E, 8=D)
   // code = what's written on the letter at that spot
   // nextClue = revealed AFTER they enter this code (or the starter for findOrder=1)
   {
@@ -308,7 +308,7 @@ const FINALE_MERCHANT = "The word is whole, traveler. GODSPEED — an old blessi
 
 // =============================================================
 
-const STORAGE_KEY = 'godspeed-hunt-progress-v1';
+const STORAGE_KEY = 'hunt-progress-v1';
 
 function loadProgress(){
   try {
